@@ -1,4 +1,5 @@
 ﻿using System;
+using ChristmasPresent.Implementation;
 
 namespace ChristmasPresent
 {
@@ -6,7 +7,9 @@ namespace ChristmasPresent
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Sweet candy = new Candy();
+            Present<Sweet> kek = new Present<Sweet>();
+            kek.AddSweet(candy);
         }
     }
 }
