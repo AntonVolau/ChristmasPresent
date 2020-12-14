@@ -4,14 +4,14 @@ using System.Text;
 
 namespace ChristmasPresent.Implementation
 {
-    public class Candy : Sweet
+    class ChokolateEgg : Sweet
     {
-        internal Candy()
+        internal ChokolateEgg()
         {
-            Name = "Roshen";
+            Name = "Kinder Surprise";
+            SugarSubstance = 0.3m;
             Weight = 0.1m;
-            Volume = 0.05m;
-            SugarSubstance = 0.2m;
+            Volume = 0.1m;
         }
     }
 }

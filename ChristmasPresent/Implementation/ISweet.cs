@@ -6,14 +6,21 @@ namespace ChristmasPresent.Implementation
 {
     public interface ISweet
     {
-        public Guid ID { get; }
-
+        /// <summary>
+        /// Name of sweet
+        /// </summary>
         public string Name { get; set; }
-
+        /// <summary>
+        /// Weight of sweet
+        /// </summary>
         public decimal Weight { get; set; }
-
+        /// <summary>
+        /// Volume of sweet
+        /// </summary>
         public decimal Volume { get; set; }
-
+        /// <summary>
+        /// Sugar Substance of sweet
+        /// </summary>
         public decimal SugarSubstance { get; set; }
     }
 }
